@@ -4,6 +4,7 @@
   "description": "redux api middleware for separate your api routes, api actions, and interceptors. provide state normalization, db reducer",
   "main": "webpack.config.js",
   "scripts": {
+    "cleanup": "npm prune && npm i && npm dedupe",
     "test": "jest --coverage"
   },
   "repository": {
@@ -60,11 +61,37 @@
     "webpack": "1.14.0"
   },
   "dependencies": {
+    "babel-plugin-transform-runtime": "6.15.0",
+    "babel-polyfill": "6.20.0",
     "fetch-jsonp": "1.0.5",
     "localforage": "1.4.3",
     "normalizr": "3.1.0",
     "urijs": "1.18.4",
     "usymbol": "1.0.4",
     "whatwg-fetch": "2.0.1"
+  },
+  "jest": {
+    "automock": false,
+    "notify": true,
+    "testEnvironment": "jsdom",
+    "cacheDirectory": ".tmp/jest-cache",
+    "coverageDirectory": ".tmp/tests-coverage-report",
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/__tests__/"
+    ],
+    "moduleFileExtensions": [
+      "",
+      "js",
+      "jsx"
+    ],
+    "testRegex": "/__tests__/.+?\\.test\\.js$",
+    "moduleDirectories": [
+      "node_modules"
+    ],
+    "verbose": false
   }
 }
