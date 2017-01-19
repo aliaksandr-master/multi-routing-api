@@ -1,6 +1,6 @@
 {
   "name": "redux-routed-api-middleware",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "redux api middleware for separate your api routes, api actions, and interceptors. provide state normalization, db reducer",
   "main": "lib/index.js",
   "scripts": {
