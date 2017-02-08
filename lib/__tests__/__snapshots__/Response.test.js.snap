@@ -1,0 +1,9 @@
+exports[`Response should set needable props 1`] = `
+Response {
+  "ok": false,
+  "options": Object {},
+  "rawResponse": null,
+  "result": null,
+  "status": 404,
+}
+`;
