@@ -6,6 +6,7 @@
   "scripts": {
     "cleanup": "npm prune && npm i && npm dedupe",
     "test": "node_modules/.bin/eslint --color --debug --config ./.eslintrc.json lib/**/*.js && node_modules/.bin/jest --coverage",
+    "jest": "node_modules/.bin/jest --coverage",
     "precommit": "npm test",
     "prepush": "npm test"
   },
