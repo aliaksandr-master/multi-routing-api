@@ -1,5 +1,5 @@
 {
-  "name": "redux-routed-api-middleware",
+  "name": "multi-routing-api",
   "version": "2.3.0",
   "description": "redux api middleware for separate your api routes, api actions, and interceptors. provide state normalization, db reducer",
   "main": "lib/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aliaksandr-master/redux-routed-api-middleware.git"
+    "url": "git+https://github.com/aliaksandr-master/multi-routing-api.git"
   },
   "keywords": [
     "redux",
@@ -32,9 +32,9 @@
   "author": "alxe.master@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aliaksandr-master/redux-routed-api-middleware/issues"
+    "url": "https://github.com/aliaksandr-master/multi-routing-api/issues"
   },
-  "homepage": "https://github.com/aliaksandr-master/redux-routed-api-middleware#readme",
+  "homepage": "https://github.com/aliaksandr-master/multi-routing-api#readme",
   "devDependencies": {
     "babel-core": "6.21.0",
     "babel-eslint": "7.1.1",

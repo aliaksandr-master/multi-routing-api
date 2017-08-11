@@ -1,19 +1,19 @@
-[![npm](http://img.shields.io/npm/v/redux-routed-api-middleware.svg?style=flat-square)](https://www.npmjs.com/package/redux-routed-api-middleware)
-[![npm](http://img.shields.io/npm/l/redux-routed-api-middleware.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![Dependency Status](https://david-dm.org/aliaksandr-master/redux-routed-api-middleware.svg?style=flat-square)](https://david-dm.org/aliaksandr-master/redux-routed-api-middleware)
-[![devDependency Status](https://david-dm.org/aliaksandr-master/redux-routed-api-middleware/dev-status.svg?style=flat-square)](https://david-dm.org/aliaksandr-master/redux-routed-api-middleware#info=devDependencies)
+[![npm](http://img.shields.io/npm/v/multi-routing-api.svg?style=flat-square)](https://www.npmjs.com/package/multi-routing-api)
+[![npm](http://img.shields.io/npm/l/multi-routing-api.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![Dependency Status](https://david-dm.org/aliaksandr-master/multi-routing-api.svg?style=flat-square)](https://david-dm.org/aliaksandr-master/multi-routing-api)
+[![devDependency Status](https://david-dm.org/aliaksandr-master/multi-routing-api/dev-status.svg?style=flat-square)](https://david-dm.org/aliaksandr-master/multi-routing-api#info=devDependencies)
 
-# redux-routed-api-middleware
+# multi-routing-api
 Predictable fetch for redux.
 Used normalizr.
 
 ```shell
-$ npm install redux-routed-api-middleware --save
+$ npm install multi-routing-api --save
 ```
 
 ```js
 // main-api.origins.js
-import { ResourceOrigin, TransportJSON } from 'redux-routed-api-middleware';
+import { ResourceOrigin, TransportJSON } from 'multi-routing-api';
 
 
 
@@ -26,7 +26,7 @@ export const mainResource = ResourceOrigin({
 
 ```js
 // main-api.entities.js
-import { schema } from 'redux-routed-api-middleware';
+import { schema } from 'multi-routing-api';
 
 
 export const EntitySandboxComponent = new schema.Entity('sandbox_component');
