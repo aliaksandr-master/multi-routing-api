@@ -1,6 +1,6 @@
 {
   "name": "multi-routing-api",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "description": "redux api middleware for separate your api routes, api actions, and interceptors. provide state normalization, db reducer",
   "main": "lib/index.js",
   "scripts": {
