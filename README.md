@@ -13,20 +13,20 @@ $ npm install multi-routing-api --save
 
 ```js
 // main-api.origins.js
-import { ResourceOrigin, TransportJSON } from 'multi-routing-api';
+import { origin, TransportJSON } from 'multi-routing-api';
 
 
 
-export const mainResource = ResourceOrigin({
+export const mainResource = origin({
   baseUrl: `${window.location.protocol}//${window.location.host}/api/`,
-  defaultTransport: new TransportJSON()
+  transport: new TransportJSON()
 });
 
 ```
 
 ```js
 // main-api.entities.js
-import { schema } from 'multi-routing-api';
+import { schema } from 'multi-routing-api/lib/redux';
 
 
 export const EntitySandboxComponent = new schema.Entity('sandbox_component');
